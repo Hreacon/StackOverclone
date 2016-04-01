@@ -1,4 +1,6 @@
-<h3>List of questions:</h3>
-{{#each model as |question|}}
+<h3 class="questionList">List of questions:</h3>
+<div class="question-list">
+  {{#each model as |question|}}
   {{question-tile question=question}}
-{{/each}}
+  {{/each}}
+</div>

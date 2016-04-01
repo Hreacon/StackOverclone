@@ -9,9 +9,11 @@
     <button {{action 'saveEditQuestion' model}}>Save your edits!</button>
   </form>
 {{else}}
-  <h1>{{model.content}}</h1>
-  <p>{{model.author}}</p>
-  <p>{{model.notes}}</p>
-
+  <div class="question">
+    <p>{{model.author}} asks:</p>
+    <p>{{model.content}}</p>
+    <p>Extra details: {{model.notes}}</p>
+  </div>
   <button {{action 'activateEditMode'}}>Edit this question</button>
 {{/if}}
+{{comment-list model=model.answers}}

@@ -1,0 +1,77 @@
+.header ul {
+  display: inline-block;
+  list-style: none;
+  float:right;
+  padding:0;
+  margin:0;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  color:white;
+  text-decoration: none;
+  display: block;
+  padding:20px;
+  border-radius: 10px;
+  margin:0 5px;
+  background: blue;
+  border:1px solid blue;
+}
+.header ul li a:hover {
+  color:blue;
+  background: white;
+  box-shadow: 2px 2px 2px blue;
+}
+.logo {
+  padding:15px;
+  border:1px solid blue;
+  display: inline-block;
+  font-size:1.5em;
+}
+
+.questionList {
+  text-align: center;
+}
+.question-tile {
+  border:2px solid blue;
+  display: inline-block;
+  box-shadow: 5px 5px 5px lightblue;
+  margin:10px;
+  text-align: center;
+  border-radius:10px;
+}
+.question-tile a {
+  color:black;
+  padding:20px;
+  background:lightblue;
+  font-weight:bold;
+  font-size:2em;
+}
+.question-tile a:hover {
+  color:red;
+  background:white;
+}
+.question-list .ember-view {
+  display: inline-block;
+}
+.question-tile a p {
+  font-weight:normal;
+  font-size: .5em;
+  text-decoration: none;
+}
+button {
+  padding:10px;
+  border:2px solid black;
+  border-radius:5px;
+  background:white;
+  cursor:pointer;
+  box-shadow:5px 5px 5px lightgray;
+}
+button:hover {
+  box-shadow: 7px 7px 5px lightgray;
+  border:2px solid darkgray;
+}
+.new-question {
+  text-align: center;
+}

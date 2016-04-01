@@ -1,6 +1,6 @@
 <div class="question-tile">
-  {{#link-to 'question' question.id}}<h1>{{question.content}}</h1>{{/link-to}}
+  {{#link-to 'question' question.id}} {{question.content}}
   <p>
     {{question.author}}
-  </p>
+  </p>{{/link-to}}
 </div>
