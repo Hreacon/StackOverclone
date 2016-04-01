@@ -1,0 +1,11 @@
+{{#if addMode}}
+  <form>
+    <label for="answer">Answer:</label>
+    {{input value=content}}
+    <label for="author">Author:</label>
+    {{input value=author}}
+    <button {{action 'saveNewAnswer'}}>Answer this question!</button>
+  </form>
+{{else}}
+  <button {{action 'activateAddMode'}}>Know the answer?</button>
+{{/if}}
