@@ -1,0 +1,13 @@
+{{#if askingQuestion}}
+  <form class="newQuestionForm">
+    <label for="content">Whats your question?</label>
+    {{input value=content}}
+    <label for="author">Who are you?</label>
+    {{input value=author}}
+    <label for="notes">Any additional notes?</label>
+    {{input value=notes}}
+    <button {{action 'saveNewQuestion'}}>Ask for answers!</button>
+  </form>
+{{else}}
+  <button {{action 'askAQuestion'}}>Ask your own question!</button>
+{{/if}}
