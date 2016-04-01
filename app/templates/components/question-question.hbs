@@ -1,0 +1,17 @@
+{{#if editMode}}
+  <form class="editQuestionForm">
+    <label for="content">Whats your question?</label>
+    {{input value=model.content}}
+    <label for="author">Who are you?</label>
+    {{input value=model.author}}
+    <label for="notes">Any additional notes?</label>
+    {{input value=model.notes}}
+    <button {{action 'saveEditQuestion' model}}>Save your edits!</button>
+  </form>
+{{else}}
+  <h1>{{model.content}}</h1>
+  <p>{{model.autho}}</p>
+  <p>{{model.notes}}</p>
+
+  <button {{action 'activateEditMode'}}>Edit this question</button>
+{{/if}}
