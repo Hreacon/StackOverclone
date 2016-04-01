@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'stack-overclone',
     environment: environment,
-    firebase: "https://stackoverclone.firebaseIO.com",
+    firebase: "https://stackoverclone.firebaseio.com/",
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
