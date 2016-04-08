@@ -2,6 +2,8 @@
 {{#each model as |comment|}}
   <div class="comment">
     <h4>{{comment.content}}</h4>
-    <p>{{comment.author}}</p>
+    <p>{{comment.author}}, Votes: {{comment.votes}}</p>
+    <button {{action 'upVote' comment}}>UpVote</button>
+    <button {{action 'downVote' comment}}>DownVote</button>
   </div>
 {{/each}}

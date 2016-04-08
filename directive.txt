@@ -7,9 +7,9 @@ Users should be able to click on a question to view additional information.
 Allow users to add
 and edit questions.
 Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+Implement upvote/downvote functionality so that users may vote on answers.
 
 # Todo
 
-Implement upvote/downvote functionality so that users may vote on answers.
 Add tags to questions.
 Add custom styling.

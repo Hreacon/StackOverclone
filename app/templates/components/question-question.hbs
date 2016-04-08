@@ -16,4 +16,4 @@
   </div>
   <button {{action 'activateEditMode'}}>Edit this question</button>
 {{/if}}
-{{comment-list model=model.answers}}
+{{comment-list model=model.answers upVote="upVote" downVote="downVote"}}

@@ -10,6 +10,12 @@ export default Ember.Component.extend({
       console.log("sending action");
       this.sendAction('saveMe', question);
       this.set('editMode', false);
+    },
+    upVote(comment) {
+      this.sendAction('upVote', comment);
+    },
+    downVote(comment) {
+      this.sendAction('downVote', comment);
     }
   }
 });
