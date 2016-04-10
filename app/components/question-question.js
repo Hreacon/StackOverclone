@@ -2,6 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   editMode: false,
+  author: Ember.computed('model.author_first', 'model.author_last', {
+    get(key) {
+      return this.get('model.author_first') + ' ' + this.get('model.author_last');
+    }
+  }),
   actions: {
     activateEditMode() {
       this.set("editMode", true);
