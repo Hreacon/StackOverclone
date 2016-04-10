@@ -11,5 +11,8 @@ Implement upvote/downvote functionality so that users may vote on answers.
 
 # Todo
 
+Add custom helper
+add computed property
+Add service
 Add tags to questions.
 Add custom styling.
