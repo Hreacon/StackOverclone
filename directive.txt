@@ -10,7 +10,6 @@ Allow users to add answers to a question. Answers should be added and viewed on 
 Implement upvote/downvote functionality so that users may vote on answers.
 add computed property
 Add custom helper
+Add service
 
 # Todo
-
-Add service
