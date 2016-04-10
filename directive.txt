@@ -9,10 +9,8 @@ and edit questions.
 Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 Implement upvote/downvote functionality so that users may vote on answers.
 add computed property
+Add custom helper
 
 # Todo
 
-Add custom helper
 Add service
-Add tags to questions.
-Add custom styling.
